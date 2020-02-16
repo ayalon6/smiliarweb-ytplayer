@@ -182,7 +182,7 @@ function App() {
   return (
     <div className="App">
       <Grid container className={classes.root} spacing={2}>
-        <h1>Ayalon's awesome youtube palyer</h1>
+        <h1>Ayalon's awesome youtube player</h1>
         <Grid item xs={12}>
           <Grid container justify="center" spacing={spacing} >
             {components.map(Value => (
